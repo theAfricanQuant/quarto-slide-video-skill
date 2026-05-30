@@ -1,0 +1,62 @@
+{
+  "total_slides": 15,
+  "slides_with_notes": 14,
+  "slides": [
+    {
+      "index": 1,
+      "notes": "Agentic AI is the next evolution beyond simple chatbots. Instead of just answering questions, these systems can pursue goals autonomously over multiple steps. They plan, take actions, use tools, and adapt when things go wrong. Think of it as the difference between asking for directions and hiring a driver who gets you there."
+    },
+    {
+      "index": 2,
+      "notes": "The shift from chatbots to agents is fundamental. Chatbots take a single prompt and give a single response. Agents take a high-level goal and work autonomously for minutes or even hours, calling APIs, running code, and searching the web to accomplish the task."
+    },
+    {
+      "index": 3,
+      "notes": "At the heart of every agent is a simple loop: observe the current state, think about what to do next, act by using a tool, then reflect on whether it worked. This cycle repeats until the goal is achieved."
+    },
+    {
+      "index": 4,
+      "notes": "Agentic AI rests on four pillars: foundation models for reasoning, tool use for interacting with the world, memory systems for retaining context, and orchestration frameworks like LangGraph and CrewAI for managing complex workflows."
+    },
+    {
+      "index": 5,
+      "notes": "Memory is what separates a smart assistant from a true agent. In-context memory handles the current session. Episodic memory recalls past interactions. Semantic memory stores facts and knowledge. And procedural memory remembers how to perform tasks."
+    },
+    {
+      "index": 6,
+      "notes": "Agents come in several architectural flavors. Single agents handle everything themselves. Multi-agent systems use an orchestrator to delegate tasks to specialized workers. Human-in-the-loop systems pause for approval at critical moments. And fully autonomous agents run completely independently."
+    },
+    {
+      "index": 7,
+      "notes": "As of April 2026, agents excel at code generation, research tasks, and customer support. But long-horizon planning remains challenging, safety guardrails are still evolving, and the cost of running complex agent workflows at scale is a real concern."
+    },
+    {
+      "index": 8,
+      "notes": "The landscape is moving fast. Anthropic’s Claude 4 leads in extended reasoning and tool use. OpenAI’s Operator enables computer control. Google’s Gemini 2.0 powers multimodal agents. Meta’s Llama 3 offers open-weight options. And DeepSeek R2 provides cost-efficient reasoning."
+    },
+    {
+      "index": 9,
+      "notes": "Developers have a rich ecosystem of tools. LangGraph, AutoGen, and CrewAI handle orchestration. Claude Code and Cursor bring agents into the IDE. And enterprise platforms like Microsoft Copilot Studio are making agents accessible to non-technical users."
+    },
+    {
+      "index": 10,
+      "notes": "Agents are already transforming industries. In software, they write and deploy code. In legal, they review contracts. In healthcare, they summarize clinical notes. In finance, they analyze earnings. And in research, they serve as co-pilots for hypothesis generation."
+    },
+    {
+      "index": 11,
+      "notes": "Despite the promise, significant challenges remain. Agents still hallucinate and make errors. Safety is paramount when AI acts autonomously. Observability is poor—it’s hard to audit agent decisions. Costs scale with complexity. And enterprises demand trust through explainability."
+    },
+    {
+      "index": 12,
+      "notes": "Looking ahead, expect faster and cheaper models, standardized communication protocols like MCP and A2A, and better benchmarks. In the longer term, we’ll see persistent background agents, hierarchical agent management, and integration with robotics and IoT."
+    },
+    {
+      "index": 13,
+      "notes": "The fundamental shift is from answering questions to accomplishing goals. We’re still early, but the infrastructure is forming fast, reliability is improving, and use cases are multiplying. The key question now is not if agents will transform work, but how quickly and safely we can deploy them."
+    },
+    {
+      "index": 14,
+      "notes": "Thank you for your attention. I’m happy to answer any questions about agentic AI, its current state, or how to get started building your own agents."
+    }
+  ]
+}

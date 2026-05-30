@@ -1,0 +1,65 @@
+[Script Info]
+Title: Presentation Sentence Captions
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0000
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,DejaVu Sans,40,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,2,1,2,40,40,60,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:03.65,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Agentic AI is the next evolution beyond simple chatbots.
+Dialogue: 0,0:00:03.65,0:00:09.35,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Instead of just answering questions, these systems can pursue goals autonomously over multiple steps.
+Dialogue: 0,0:00:09.35,0:00:14.22,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}They plan, take actions, use tools, and adapt when things go wrong.
+Dialogue: 0,0:00:14.22,0:00:21.54,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Think of it as the difference between asking for directions and hiring a driver who gets you there.
+Dialogue: 0,0:00:22.54,0:00:25.74,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}The shift from chatbots to agents is fundamental.
+Dialogue: 0,0:00:25.74,0:00:29.73,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Chatbots take a single prompt and give a single response.
+Dialogue: 0,0:00:29.73,0:00:39.72,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Agents take a high-level goal and work autonomously for minutes or even hours, calling APIs, running code, and searching the web to accomplish the task.
+Dialogue: 0,0:00:40.72,0:00:50.92,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}At the heart of every agent is a simple loop: observe the current state, think about what to do next, act by using a tool, then reflect on whether it worked.
+Dialogue: 0,0:00:50.92,0:00:53.56,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}This cycle repeats until the goal is achieved.
+Dialogue: 0,0:00:54.56,0:01:11.07,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Agentic AI rests on four pillars: foundation models for reasoning, tool use for interacting with the world, memory systems for retaining context, and orchestration frameworks like LangGraph and CrewAI for managing complex workflows.
+Dialogue: 0,0:01:12.07,0:01:17.23,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Memory is what separates a smart assistant from a true agent.
+Dialogue: 0,0:01:17.23,0:01:20.04,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}In-context memory handles the current session.
+Dialogue: 0,0:01:20.04,0:01:22.38,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Episodic memory recalls past interactions.
+Dialogue: 0,0:01:22.38,0:01:25.19,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Semantic memory stores facts and knowledge.
+Dialogue: 0,0:01:25.19,0:01:28.94,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}And procedural memory remembers how to perform tasks.
+Dialogue: 0,0:01:29.94,0:01:33.12,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Agents come in several architectural flavors.
+Dialogue: 0,0:01:33.12,0:01:35.77,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Single agents handle everything themselves.
+Dialogue: 0,0:01:35.77,0:01:41.60,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Multi-agent systems use an orchestrator to delegate tasks to specialized workers.
+Dialogue: 0,0:01:41.60,0:01:45.84,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Human-in-the-loop systems pause for approval at critical moments.
+Dialogue: 0,0:01:45.84,0:01:49.55,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}And fully autonomous agents run completely independently.
+Dialogue: 0,0:01:50.55,0:01:57.22,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}As of April 2026, agents excel at code generation, research tasks, and customer support.
+Dialogue: 0,0:01:57.22,0:02:08.66,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}But long-horizon planning remains challenging, safety guardrails are still evolving, and the cost of running complex agent workflows at scale is a real concern.
+Dialogue: 0,0:02:09.66,0:02:12.42,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}The landscape is moving fast.
+Dialogue: 0,0:02:12.42,0:02:17.94,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Anthropic’s Claude 4 leads in extended reasoning and tool use.
+Dialogue: 0,0:02:17.94,0:02:20.70,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}OpenAI’s Operator enables computer control.
+Dialogue: 0,0:02:20.70,0:02:24.01,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Google’s Gemini 2.0 powers multimodal agents.
+Dialogue: 0,0:02:24.01,0:02:27.32,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Meta’s Llama 3 offers open-weight options.
+Dialogue: 0,0:02:27.32,0:02:30.63,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}And DeepSeek R2 provides cost-efficient reasoning.
+Dialogue: 0,0:02:31.63,0:02:35.26,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Developers have a rich ecosystem of tools.
+Dialogue: 0,0:02:35.26,0:02:38.37,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}LangGraph, AutoGen, and CrewAI handle orchestration.
+Dialogue: 0,0:02:38.37,0:02:43.03,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Claude Code and Cursor bring agents into the IDE.
+Dialogue: 0,0:02:43.03,0:02:50.28,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}And enterprise platforms like Microsoft Copilot Studio are making agents accessible to non-technical users.
+Dialogue: 0,0:02:51.28,0:02:53.63,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Agents are already transforming industries.
+Dialogue: 0,0:02:53.63,0:02:56.92,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}In software, they write and deploy code.
+Dialogue: 0,0:02:56.92,0:02:59.28,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}In legal, they review contracts.
+Dialogue: 0,0:02:59.28,0:03:02.10,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}In healthcare, they summarize clinical notes.
+Dialogue: 0,0:03:02.10,0:03:04.45,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}In finance, they analyze earnings.
+Dialogue: 0,0:03:04.45,0:03:09.16,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}And in research, they serve as co-pilots for hypothesis generation.
+Dialogue: 0,0:03:10.16,0:03:13.28,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Despite the promise, significant challenges remain.
+Dialogue: 0,0:03:13.28,0:03:16.40,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Agents still hallucinate and make errors.
+Dialogue: 0,0:03:16.40,0:03:20.05,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Safety is paramount when AI acts autonomously.
+Dialogue: 0,0:03:20.05,0:03:24.21,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Observability is poor—it’s hard to audit agent decisions.
+Dialogue: 0,0:03:24.21,0:03:26.30,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Costs scale with complexity.
+Dialogue: 0,0:03:26.30,0:03:29.42,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}And enterprises demand trust through explainability.
+Dialogue: 0,0:03:30.42,0:03:39.25,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Looking ahead, expect faster and cheaper models, standardized communication protocols like MCP and A2A, and better benchmarks.
+Dialogue: 0,0:03:39.25,0:03:48.60,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}In the longer term, we’ll see persistent background agents, hierarchical agent management, and integration with robotics and IoT.
+Dialogue: 0,0:03:49.60,0:03:53.64,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}The fundamental shift is from answering questions to accomplishing goals.
+Dialogue: 0,0:03:53.64,0:04:00.51,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}We’re still early, but the infrastructure is forming fast, reliability is improving, and use cases are multiplying.
+Dialogue: 0,0:04:00.51,0:04:08.60,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}The key question now is not if agents will transform work, but how quickly and safely we can deploy them.
+Dialogue: 0,0:04:09.60,0:04:11.41,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}Thank you for your attention.
+Dialogue: 0,0:04:11.41,0:04:18.99,Default,,0,0,0,,{\an2\pos(960,1000)\fad(200,200)}I’m happy to answer any questions about agentic AI, its current state, or how to get started building your own agents.
