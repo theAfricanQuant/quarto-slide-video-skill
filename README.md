@@ -90,13 +90,38 @@ sudo apt install chromium-browser
 brew install --cask google-chrome
 ```
 
-### 5. Python Dependencies
+### 5. Python Dependencies (via uv)
 
+This project uses [uv](https://github.com/astral-sh/uv) — an extremely fast Python package manager and resolver written in Rust.
+
+**Install uv:**
+
+**Windows (PowerShell):**
+```powershell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+**Linux/macOS:**
 ```bash
-pip install kokoro-onnx soundfile
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+**Or with Homebrew:**
+```bash
+brew install uv
+```
+
+**Install Python dependencies:**
+```bash
+uv pip install kokoro-onnx soundfile
 ```
 
 The Kokoro TTS model will auto-download on first run (~300 MB).
+
+**Run scripts with uv:**
+```bash
+uv run scripts/build_working.py
+```
 
 ## Quick Start
 
@@ -109,13 +134,13 @@ cd quarto-slide-video-skill
 quarto render slides.qmd --to revealjs
 
 # 3. Extract notes & generate TTS
-python3 scripts/extract_notes.py
+uv run scripts/extract_notes.py
 
 # 4. Capture screenshots
-python3 scripts/screenshot_slides.py
+uv run scripts/screenshot_slides.py
 
 # 5. Build final video
-python3 scripts/build_working.py
+uv run scripts/build_working.py
 ```
 
 ## Repository Structure
